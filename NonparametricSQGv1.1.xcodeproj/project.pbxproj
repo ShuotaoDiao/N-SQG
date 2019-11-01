@@ -7,7 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E088BA8122C17B070088E62A /* oneStagePiecewiseLP_NSQG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E088BA7F22C17B070088E62A /* oneStagePiecewiseLP_NSQG.cpp */; };
 		E0DB98CF22C04531008088B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0DB98CE22C04531008088B2 /* main.cpp */; };
+		E0DB98D722C04553008088B2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB98D622C04553008088B2 /* IOKit.framework */; };
+		E0DB98D922C0455F008088B2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB98D822C0455F008088B2 /* CoreFoundation.framework */; };
+		E0DB98DB22C0457F008088B2 /* libconcert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB98DA22C0457F008088B2 /* libconcert.a */; };
+		E0DB98DF22C04595008088B2 /* libilocplex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB98DC22C04595008088B2 /* libilocplex.a */; };
+		E0DB98E022C04595008088B2 /* libcplexdistmip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB98DD22C04595008088B2 /* libcplexdistmip.a */; };
+		E0DB98E122C04595008088B2 /* libcplex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB98DE22C04595008088B2 /* libcplex.a */; };
+		E0DB98E422C048E8008088B2 /* NonparametricSQG_dataType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0DB98E222C048E8008088B2 /* NonparametricSQG_dataType.cpp */; };
+		E0DB98E722C04B48008088B2 /* nonparametricSQG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0DB98E522C04B48008088B2 /* nonparametricSQG.cpp */; };
+		E0DB98EA22C04C16008088B2 /* ioNonparametricDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0DB98E822C04C16008088B2 /* ioNonparametricDB.cpp */; };
+		E0DB98ED22C04C94008088B2 /* ioNonparametricModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0DB98EB22C04C94008088B2 /* ioNonparametricModel.cpp */; };
+		E0DB98F022C04CFA008088B2 /* ioStochastic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0DB98EE22C04CFA008088B2 /* ioStochastic.cpp */; };
+		E0DB98F622C04DEB008088B2 /* testPlayground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0DB98F422C04DEB008088B2 /* testPlayground.cpp */; };
+		E0DB98F922C04F87008088B2 /* twoStageLP_NSQG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0DB98F722C04F87008088B2 /* twoStageLP_NSQG.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +37,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E088BA7F22C17B070088E62A /* oneStagePiecewiseLP_NSQG.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = oneStagePiecewiseLP_NSQG.cpp; sourceTree = "<group>"; };
+		E088BA8022C17B070088E62A /* oneStagePiecewiseLP_NSQG.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = oneStagePiecewiseLP_NSQG.hpp; sourceTree = "<group>"; };
 		E0DB98CB22C04531008088B2 /* NonparametricSQGv1.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NonparametricSQGv1.1; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DB98CE22C04531008088B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E0DB98D622C04553008088B2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		E0DB98D822C0455F008088B2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		E0DB98DA22C0457F008088B2 /* libconcert.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconcert.a; path = "../../../../../../Applications/CPLEX_Studio128/concert/lib/x86-64_osx/static_pic/libconcert.a"; sourceTree = "<group>"; };
+		E0DB98DC22C04595008088B2 /* libilocplex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libilocplex.a; path = "../../../../../../Applications/CPLEX_Studio128/cplex/lib/x86-64_osx/static_pic/libilocplex.a"; sourceTree = "<group>"; };
+		E0DB98DD22C04595008088B2 /* libcplexdistmip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcplexdistmip.a; path = "../../../../../../Applications/CPLEX_Studio128/cplex/lib/x86-64_osx/static_pic/libcplexdistmip.a"; sourceTree = "<group>"; };
+		E0DB98DE22C04595008088B2 /* libcplex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcplex.a; path = "../../../../../../Applications/CPLEX_Studio128/cplex/lib/x86-64_osx/static_pic/libcplex.a"; sourceTree = "<group>"; };
+		E0DB98E222C048E8008088B2 /* NonparametricSQG_dataType.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NonparametricSQG_dataType.cpp; sourceTree = "<group>"; };
+		E0DB98E322C048E8008088B2 /* NonparametricSQG_dataType.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NonparametricSQG_dataType.hpp; sourceTree = "<group>"; };
+		E0DB98E522C04B48008088B2 /* nonparametricSQG.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nonparametricSQG.cpp; sourceTree = "<group>"; };
+		E0DB98E622C04B48008088B2 /* nonparametricSQG.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = nonparametricSQG.hpp; sourceTree = "<group>"; };
+		E0DB98E822C04C16008088B2 /* ioNonparametricDB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ioNonparametricDB.cpp; sourceTree = "<group>"; };
+		E0DB98E922C04C16008088B2 /* ioNonparametricDB.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ioNonparametricDB.hpp; sourceTree = "<group>"; };
+		E0DB98EB22C04C94008088B2 /* ioNonparametricModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ioNonparametricModel.cpp; sourceTree = "<group>"; };
+		E0DB98EC22C04C94008088B2 /* ioNonparametricModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ioNonparametricModel.hpp; sourceTree = "<group>"; };
+		E0DB98EE22C04CFA008088B2 /* ioStochastic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ioStochastic.cpp; sourceTree = "<group>"; };
+		E0DB98EF22C04CFA008088B2 /* ioStochastic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ioStochastic.hpp; sourceTree = "<group>"; };
+		E0DB98F422C04DEB008088B2 /* testPlayground.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testPlayground.cpp; sourceTree = "<group>"; };
+		E0DB98F522C04DEB008088B2 /* testPlayground.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testPlayground.hpp; sourceTree = "<group>"; };
+		E0DB98F722C04F87008088B2 /* twoStageLP_NSQG.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = twoStageLP_NSQG.cpp; sourceTree = "<group>"; };
+		E0DB98F822C04F87008088B2 /* twoStageLP_NSQG.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = twoStageLP_NSQG.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +68,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0DB98DF22C04595008088B2 /* libilocplex.a in Frameworks */,
+				E0DB98E022C04595008088B2 /* libcplexdistmip.a in Frameworks */,
+				E0DB98E122C04595008088B2 /* libcplex.a in Frameworks */,
+				E0DB98DB22C0457F008088B2 /* libconcert.a in Frameworks */,
+				E0DB98D922C0455F008088B2 /* CoreFoundation.framework in Frameworks */,
+				E0DB98D722C04553008088B2 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +85,7 @@
 			children = (
 				E0DB98CD22C04531008088B2 /* NonparametricSQGv1.1 */,
 				E0DB98CC22C04531008088B2 /* Products */,
+				E0DB98D522C04553008088B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +101,37 @@
 			isa = PBXGroup;
 			children = (
 				E0DB98CE22C04531008088B2 /* main.cpp */,
+				E0DB98E222C048E8008088B2 /* NonparametricSQG_dataType.cpp */,
+				E0DB98E322C048E8008088B2 /* NonparametricSQG_dataType.hpp */,
+				E0DB98F722C04F87008088B2 /* twoStageLP_NSQG.cpp */,
+				E0DB98F822C04F87008088B2 /* twoStageLP_NSQG.hpp */,
+				E088BA7F22C17B070088E62A /* oneStagePiecewiseLP_NSQG.cpp */,
+				E088BA8022C17B070088E62A /* oneStagePiecewiseLP_NSQG.hpp */,
+				E0DB98E522C04B48008088B2 /* nonparametricSQG.cpp */,
+				E0DB98E622C04B48008088B2 /* nonparametricSQG.hpp */,
+				E0DB98E822C04C16008088B2 /* ioNonparametricDB.cpp */,
+				E0DB98E922C04C16008088B2 /* ioNonparametricDB.hpp */,
+				E0DB98EB22C04C94008088B2 /* ioNonparametricModel.cpp */,
+				E0DB98EC22C04C94008088B2 /* ioNonparametricModel.hpp */,
+				E0DB98EE22C04CFA008088B2 /* ioStochastic.cpp */,
+				E0DB98EF22C04CFA008088B2 /* ioStochastic.hpp */,
+				E0DB98F422C04DEB008088B2 /* testPlayground.cpp */,
+				E0DB98F522C04DEB008088B2 /* testPlayground.hpp */,
 			);
 			path = NonparametricSQGv1.1;
+			sourceTree = "<group>";
+		};
+		E0DB98D522C04553008088B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB98DE22C04595008088B2 /* libcplex.a */,
+				E0DB98DD22C04595008088B2 /* libcplexdistmip.a */,
+				E0DB98DC22C04595008088B2 /* libilocplex.a */,
+				E0DB98DA22C0457F008088B2 /* libconcert.a */,
+				E0DB98D822C0455F008088B2 /* CoreFoundation.framework */,
+				E0DB98D622C04553008088B2 /* IOKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0DB98ED22C04C94008088B2 /* ioNonparametricModel.cpp in Sources */,
 				E0DB98CF22C04531008088B2 /* main.cpp in Sources */,
+				E0DB98F622C04DEB008088B2 /* testPlayground.cpp in Sources */,
+				E0DB98F022C04CFA008088B2 /* ioStochastic.cpp in Sources */,
+				E088BA8122C17B070088E62A /* oneStagePiecewiseLP_NSQG.cpp in Sources */,
+				E0DB98E422C048E8008088B2 /* NonparametricSQG_dataType.cpp in Sources */,
+				E0DB98E722C04B48008088B2 /* nonparametricSQG.cpp in Sources */,
+				E0DB98F922C04F87008088B2 /* twoStageLP_NSQG.cpp in Sources */,
+				E0DB98EA22C04C16008088B2 /* ioNonparametricDB.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +319,17 @@
 		E0DB98D322C04531008088B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/Applications/CPLEX_Studio128/cplex/include,
+					/Applications/CPLEX_Studio128/concert/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Applications/CPLEX_Studio128/cplex/lib/x86-64_osx/static_pic\"",
+					"\"/Applications/CPLEX_Studio128/concert/lib/x86-64_osx/static_pic\"",
+				);
+				OTHER_CFLAGS = "-DIL_STD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -247,7 +337,17 @@
 		E0DB98D422C04531008088B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/Applications/CPLEX_Studio128/cplex/include,
+					/Applications/CPLEX_Studio128/concert/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Applications/CPLEX_Studio128/cplex/lib/x86-64_osx/static_pic\"",
+					"\"/Applications/CPLEX_Studio128/concert/lib/x86-64_osx/static_pic\"",
+				);
+				OTHER_CFLAGS = "-DIL_STD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
